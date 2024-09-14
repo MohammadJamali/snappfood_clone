@@ -1,0 +1,77 @@
+name: snappfood_clone
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_blurhash: ^0.8.2
+  dio: ^5.7.0
+  intl: ^0.19.0
+  json_annotation: ^4.9.0
+  json_serializable: ^6.8.0
+  shared_preferences: ^2.3.2
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+  equatable: ^2.0.5
+  font_awesome_flutter: ^10.7.0
+  retrofit: ^4.4.1
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.3
+  qr_flutter: ^4.1.0
+  freezed_annotation: ^2.4.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  mocktail: ^1.0.4
+  retrofit_generator: ^9.1.1
+  build_runner: ^2.4.12
+
+flutter:
+  generate: true
+  uses-material-design: true
+  
+  fonts:
+  # https://fonts.google.com/specimen/Libre+Baskerville
+  - family: LibreBaskerville
+    fonts:
+      - asset: assets/fonts/Libre_Baskerville/LibreBaskerville-Regular.ttf
+        style: normal
+      - asset: assets/fonts/Libre_Baskerville/LibreBaskerville-Italic.ttf
+        style: italic
+      - asset: assets/fonts/Libre_Baskerville/LibreBaskerville-Bold.ttf
+        weight: 700
+  - family: BlackChancery
+    fonts: # https://www.dafont.com/black-chancery.font
+      - asset: assets/fonts/blackchancery.ttf
+        style: normal
+  - family: roboto
+    fonts:
+      - asset: assets/fonts/roboto/blackItalic.ttf
+      - asset: assets/fonts/roboto/boldItalic.ttf
+      - asset: assets/fonts/roboto/light.ttf
+      - asset: assets/fonts/roboto/medium.ttf
+      - asset: assets/fonts/roboto/regular.ttf
+      - asset: assets/fonts/roboto/thinItalic.ttf
+      - asset: assets/fonts/roboto/black.ttf
+      - asset: assets/fonts/roboto/bold.ttf
+      - asset: assets/fonts/roboto/italic.ttf
+      - asset: assets/fonts/roboto/lightItalic.ttf
+      - asset: assets/fonts/roboto/mediumItalic.ttf
+      - asset: assets/fonts/roboto/thin.ttf
+  - family: iransans
+    fonts:
+      - asset: assets/fonts/iransans/bold.ttf
+      - asset: assets/fonts/iransans/normal.ttf
+      - asset: assets/fonts/iransans/medium.ttf
+      - asset: assets/fonts/iransans/light.ttf
+      - asset: assets/fonts/iransans/ultraLight.ttf
